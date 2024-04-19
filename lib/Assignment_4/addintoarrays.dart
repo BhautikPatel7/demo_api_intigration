@@ -30,9 +30,8 @@ class addDynamicButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(),
-        body: Padding(
+    return 
+        Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: SingleChildScrollView(
             scrollDirection: Axis.horizontal,
@@ -40,7 +39,7 @@ class addDynamicButton extends StatelessWidget {
               children: addbuttonlist,
             ),
           ),
-        ));
+        );
   }
 }
 
