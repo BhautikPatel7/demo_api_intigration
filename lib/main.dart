@@ -8,6 +8,7 @@ import 'package:demo_api_intigration/assignemtn_work/custom.dart';
 import 'package:demo_api_intigration/assignemtn_work/gfg.dart';
 import 'package:demo_api_intigration/assignemtn_work/hey.dart';
 import 'package:demo_api_intigration/assignemtn_work/syncgrg.dart';
+import 'package:demo_api_intigration/heart_rate/heart_bpm.dart';
 import 'package:demo_api_intigration/temp/ui.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
   // home: SyncCustomSlider(),
   // home: MyApp1(),
   // home: produclist(),
-  home: Expenselist(),
+  // home: Expenselist(),
+  home: HeartRate(),
     );
   }
 }
